@@ -53,6 +53,6 @@ print(prices)
 
 
 
-for key, value in dictionary.items():
-    if value > some_number:
+for key, value in prices.items():
+    if value > 500:
         print(key, value)
