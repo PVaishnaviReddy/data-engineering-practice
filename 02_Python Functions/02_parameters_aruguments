@@ -1,0 +1,46 @@
+def count(value):
+    print("The value is :", value)
+
+count(1)
+count(2)
+
+def process_order(order_id):
+    print("Processing order:", order_id)
+
+process_order(101)
+process_order(102)
+process_order(103)
+
+
+def calculate_total(price, quantity):
+    print(price * quantity)
+
+calculate_total(100, 3)
+calculate_total(250, 2)
+
+
+
+def add(a, b):
+    print(a + b)
+
+result = add(10, 20)
+
+print(result)
+
+
+
+
+def add(a, b):
+    return(a+b)
+
+result = add(10, 20)
+
+print(result)
+
+
+def greet_student(name):
+    print("Hello",name)
+
+greet_student("Ravi")
+greet_student("priya")
+

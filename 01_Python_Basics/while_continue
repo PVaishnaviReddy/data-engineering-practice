@@ -1,0 +1,25 @@
+numbers = 1
+while numbers <= 5:
+    if numbers == 3:
+        numbers += 1
+        continue
+    print(numbers)
+    numbers += 1
+
+
+numbers = 1
+while numbers <= 10:
+    if numbers == 7:
+        numbers += 1
+        continue
+    print(numbers)
+    numbers += 1
+
+records = 1 
+while records <=5:
+    if records == 4:
+        records += 1 
+        continue
+    print(records)
+    records += 1
+            

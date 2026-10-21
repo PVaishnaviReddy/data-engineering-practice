@@ -1,0 +1,13 @@
+def greet():
+    print("Hello")
+
+print("Start")
+greet()
+print("End")
+
+def process_record(value, main = "paper"):
+    print("Write with ",value, "in", main)
+
+    process_record("marker")
+    process_record("pen")
+    process_record("pencill", "line paper")
