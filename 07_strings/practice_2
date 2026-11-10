@@ -1,0 +1,36 @@
+orders = [100, 300, 500, 800, 1000]
+
+results = []
+
+for order in orders:
+    if order > 400:
+        results.append(order * 2)
+
+print(results)
+
+#or
+
+results = [order * 2 for order in orders if order > 400]
+
+sales = [100, 250, 400, 550, 700]
+result = [sale * 3 for sale in sales if sale > 300]
+
+
+
+
+sales = [100, 250, 400, 550]
+
+result = ["High" if sale > 300 else "Low" for sale in sales]
+
+print(result)
+
+
+
+
+prices = [100, 300, 500, 800]
+
+result = ["Expensive" if price >= 500 else "Affordable" for price in prices]
+
+print(result)
+
+

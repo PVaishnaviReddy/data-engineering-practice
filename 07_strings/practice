@@ -1,0 +1,133 @@
+category = "  CLOTHING  "
+category= category.strip()
+print(category)
+category = category.lower()
+print(category)
+
+#or 
+
+category = "  CLOTHING  "
+category = category.strip().lower()
+print(category)
+
+
+
+
+
+
+status = "order pending"
+print(status.replace("pending", "completed"))
+
+
+
+items = "Laptop,Mouse,Keyboard"
+print(items.split(","))
+print(items.endswith("keyboard"))
+
+
+
+
+product = "  LAPTOP,Mouse,Keyboard  "
+
+cleaned = product.strip().lower()
+result = cleaned.split(",")
+
+print(result)
+print(result[0])
+print(cleaned.endswith("keyboard"))
+
+
+
+
+prices = [100, 250, 75, 400]
+
+for price in prices:
+    price = price * 2
+    print(price)
+
+
+
+
+prices = [100, 250, 75, 400]
+
+doubled_list = []
+
+for price in prices:
+    doubled_price = price * 2
+    doubled_list.append(doubled_price)
+
+print(doubled_list)
+
+
+
+order_amounts = [200, 750, 400, 1200, 600]
+
+large_orders = []
+
+for amount in order_amounts:
+    if amount > 500:
+        large_orders.append(amount)
+
+print(large_orders)
+
+
+
+
+
+
+
+
+
+order_amounts = [200, 750, 400, 1200, 600]
+
+large_orders= []
+
+for amount in order_amounts:
+    if amount > 500:
+      large_orders.append(amount * 2)
+
+    
+print(large_orders)
+
+
+
+order_amounts = [200, 750, 400, 1200, 600, 1500]
+
+large_order = []
+for amount in order_amounts:
+    if amount > 500:
+       large_order.append("high")
+     
+print(large_order)     
+
+
+
+
+
+numbers = [10, 20, 30]
+result = []
+
+for number in numbers:
+    result.append(number + 5)
+
+print(result)
+
+
+
+numbers = [10, 20, 30]
+result = []
+
+for number in numbers:
+    result.append(str(number))
+
+print(result)
+
+
+prices = [100, 250, 400, 600]
+result = []
+
+for price in prices:
+    if price >= 250:
+        result.append(str(price * 2))
+
+print(result)
